@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int matricula = 321;
+    int ra = 2525;
+    int idade [] = {18, 19, 20, 21, 22};
+    printf("Endereço de memória: %p, Endereço contéudo: %d \n" ,&matricula, matricula);
+    printf("Endereço de memória: %p, Endereço contéudo: %d \n" ,&ra, ra);
+    printf("Endereço de memória: %p, Endereço contéudo: %d \n" ,&idade, idade);
+    printf("%d", idade[3]);
+    
+    return 0;
+}
